@@ -26,10 +26,11 @@ Bu proje, dosyaları şifreleyen ve çözen bir ransomware uygulamasıdır.
 2. Oluşturulan şifreleme anahtarını load_key() fonksiyonuyla yükleyin.
 
 3. Şifrelemek veya çözmek istediğiniz dosyaların bulunduğu klasör yolunu belirtin ve encrypt_or_decrypt_files() fonksiyonunu çağırın. Örneğin:
-encrypt_or_decrypt_files("path/to/folder", key, encrypt=True)
+   ```shell
+   encrypt_or_decrypt_files("path/to/folder", key, encrypt=True)
 
 
-4. Bu örnek, belirtilen klasördeki dosyaları şifreleyecektir. encrypt parametresini False olarak ayarlarsanız, dosyaları çözer.
+5. Bu örnek, belirtilen klasördeki dosyaları şifreleyecektir. encrypt parametresini False olarak ayarlarsanız, dosyaları çözer.
 
 ## Notlar
 Şifreleme anahtarı dosyası (encryption_key.key) oluşturulduktan sonra güvenli bir şekilde saklanmalıdır. Başkalarının erişimine kapalı ve kaybolmaması önemlidir.
