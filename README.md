@@ -40,4 +40,8 @@ Bu kod örneği sadece eğitim amaçlıdır ve kötü niyetli kullanımı önlem
 Dosyaları şifreleme veya çözme işlemi, encrypt_file() ve decrypt_file() fonksiyonlarında gerçekleştirilir. Bu fonksiyonları ihtiyaçlarınıza uygun şekilde düzenleyebilirsiniz.
 
 ## Lisans
-Bu projenin lisansı MIT Lisansıdır. Daha fazla bilgi için LICENSE dosyasına bakın.
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+Bu projeyi [MIT Lisansı](https://opensource.org/licenses/MIT) altında lisansladık. Lisansın tam açıklamasını burada bulabilirsiniz.
+
